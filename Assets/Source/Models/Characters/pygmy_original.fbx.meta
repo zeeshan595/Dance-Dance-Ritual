@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: 24f24c4c12983534599fc40527a30861
+timeCreated: 1455231348
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_left
+    100002: arm_right01
+    100004: be_head01
+    100006: be_l_leaf01
+    100008: be_l_leg01
+    100010: be_r_leg01
+    100012: bn_chest01
+    100014: bn_head01
+    100016: bn_l_arm01
+    100018: bn_l_leaf01
+    100020: bn_l_leg01
+    100022: bn_neck01
+    100024: bn_r_arm01
+    100026: bn_r_leaf01
+    100028: bn_r_leaf01 1
+    100030: bn_r_leg01
+    100032: bn_root01
+    100034: body
+    100036: body_a
+    100038: hand_left_leaf
+    100040: hand_rightt_leaf
+    100042: head_box
+    100044: leg_left
+    100046: leg_right
+    100048: neck
+    100050: pygmy_a_skeleton01
+    100052: //RootNode
+    100054: skirt_a
+    100056: skirt_a1
+    400000: arm_left
+    400002: arm_right01
+    400004: be_head01
+    400006: be_l_leaf01
+    400008: be_l_leg01
+    400010: be_r_leg01
+    400012: bn_chest01
+    400014: bn_head01
+    400016: bn_l_arm01
+    400018: bn_l_leaf01
+    400020: bn_l_leg01
+    400022: bn_neck01
+    400024: bn_r_arm01
+    400026: bn_r_leaf01
+    400028: bn_r_leaf01 1
+    400030: bn_r_leg01
+    400032: bn_root01
+    400034: body
+    400036: body_a
+    400038: hand_left_leaf
+    400040: hand_rightt_leaf
+    400042: head_box
+    400044: leg_left
+    400046: leg_right
+    400048: neck
+    400050: pygmy_a_skeleton01
+    400052: //RootNode
+    400054: skirt_a
+    400056: skirt_a1
+    2300000: arm_left
+    2300002: arm_right01
+    2300004: body
+    2300006: hand_left_leaf
+    2300008: hand_rightt_leaf
+    2300010: head_box
+    2300012: leg_left
+    2300014: leg_right
+    2300016: neck
+    2300018: skirt_a
+    2300020: skirt_a1
+    3300000: arm_left
+    3300002: arm_right01
+    3300004: body
+    3300006: hand_left_leaf
+    3300008: hand_rightt_leaf
+    3300010: head_box
+    3300012: leg_left
+    3300014: leg_right
+    3300016: neck
+    3300018: skirt_a
+    3300020: skirt_a1
+    4300000: head_box
+    4300002: neck
+    4300004: hand_rightt_leaf
+    4300006: arm_right01
+    4300008: hand_left_leaf
+    4300010: arm_left
+    4300012: leg_right
+    4300014: leg_left
+    4300016: skirt_a
+    4300018: body
+    4300020: skirt_a1
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
