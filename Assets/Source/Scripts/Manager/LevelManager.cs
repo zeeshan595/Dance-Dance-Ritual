@@ -31,8 +31,6 @@ public class LevelManager : MonoBehaviour
     [SerializeField]
     private Transform[] timerClockSymbol;
     [SerializeField]
-    private Sprite[] timerClockSymbolTexture;
-    [SerializeField]
     private Text timerText;
     [SerializeField]
     private AudioClip[] startUpSounds;
@@ -139,7 +137,7 @@ public class LevelManager : MonoBehaviour
                 {
                     if (((float)i / (float)timerClockSymbol.Length) >= tim || i == 0)
                     {
-                        timerClockSymbol[i].GetComponent<SpriteRenderer>().sprite = timerClockSymbolTexture[i];
+                        timerClockSymbol[i].GetComponent<SpriteRenderer>().color = Color.red;
                     }
                 }
             }
