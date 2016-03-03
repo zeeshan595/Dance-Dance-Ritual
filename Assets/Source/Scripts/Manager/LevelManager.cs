@@ -60,6 +60,7 @@ public class LevelManager : MonoBehaviour
     private Mode currentMode;
     private int initalTime = 0;
     private float deltaTimer = 0;
+    private float scoreMultiplier = 2.0f;
 
     #endregion
 
@@ -92,6 +93,8 @@ public class LevelManager : MonoBehaviour
 
         if (gameStarted)
             deltaTimer -= Time.deltaTime;
+
+        scoreMultiplier -= Time.deltaTime;
     }
 
     #endregion
@@ -100,6 +103,8 @@ public class LevelManager : MonoBehaviour
 
     private IEnumerator Tick()
     {
+        scoreMultiplier = 2.0f;
+
         if (!gameStarted)
         {
             if (countDown <= 0)
@@ -209,6 +214,11 @@ public class LevelManager : MonoBehaviour
     public void ChangeSetting(float BPM)
     {
         this.BPM = BPM;
+    }
+    
+    public float GetScoreMultiplier()
+    {
+        return scoreMultiplier;
     }
 
     #endregion
